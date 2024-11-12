@@ -25,7 +25,9 @@ nav {
     color: #333;
 }
 
+
 .nav-links {
+    text-decoration: none;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -35,14 +37,14 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: hsl(0, 88%, 3%);
 }
 
 .login-btn,
 .signup-btn,
 .get-started-btn {
-    background-color: #333;
-    color: #fff;
+    background-color: hsl(69, 54%, 97%);
+    color: #0a0a0a;
     border: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
